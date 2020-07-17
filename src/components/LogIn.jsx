@@ -70,7 +70,7 @@ function LogIn() {
       dispatch(signIn());
       console.log('Success');
     } else {
-      console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
+      console.error("error!");
     }
   };
   const handleChange = e => {
